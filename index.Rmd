@@ -30,6 +30,8 @@ knit        : slidify::knit2slides
 
 ## Correspondence Map using R - Eigen values
 
+> 1. Packages - FactoMineR
+
 ```{r}
 library(FactoMineR)
 author=read.csv("Sample.csv",row.names="X")
@@ -56,6 +58,3 @@ head(ca2$row$coord)
 plot(ca2)
 
 ```
-
-
-
